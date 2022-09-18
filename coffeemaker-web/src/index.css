@@ -1,0 +1,267 @@
+* {
+  margin:0;
+  box-sizing: border-box;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+}
+/* ================================================ Header Section Start ====================================================================== */
+.headerFirstContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #F6F6F6;
+}
+.headerSecondContainer{
+  text-align: center;
+  padding: 0 2rem 0 2rem;
+  /* border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-bottom: none;
+  color: #3AB154; */
+}
+.headerTitleText{
+  font-size: 5em;
+  font-family: 'Stint Ultra Condensed', cursive;
+  color: #636d65;
+  
+}
+.headerTitle{
+  margin: 1rem 0 1rem 0;
+}
+/* ================================================ Header Section end ====================================================================== */
+
+/* ================================================ OrderForm Section Start ====================================================================== */
+
+.orderFormFirstContainer{
+  width: 100%;
+  /* background-color:#F6F6F6; */
+}
+.orderFormTitleContainer{
+  padding: 3%;
+  /* position: relative; */
+  display: inline-block;
+}
+.orderFormTitleText{
+  font-size: 2rem;
+  font-weight: 300;
+  color: #3AB154;
+  font-family: 'Roboto', sans-serif;
+}
+.greenLine{
+  width:50%;
+  margin-top:2%;
+  text-align:left;
+  margin-left:0;
+  height: 1px;
+  border-width: 0;
+  color: #3AB154;
+  background-color: #3AB154;
+}
+.orderForm_FormContainer{
+  padding: 0 3% 3% 3%;
+  max-width: 900px;
+}
+.generalButton{
+  font-weight:400;
+  color: white;
+  background-color: #3AB154;
+  border-radius: 50px 50px 50px 50px;
+  padding: 12px 80px 12px 80px;
+  cursor: pointer;
+  transition: all .3s;
+  border-color: #3AB154;
+  border-style: solid;
+  margin: 30px 0;
+  letter-spacing: 0.2em;
+}
+.generalButton:hover{
+  transform:scale(120%);
+}
+.submitRow{
+  text-align: center;
+}
+.generalLabel{
+  color: #3AB154  ;
+}
+.labelContainer{
+  width: 50%;
+  display: inline-block;
+}
+.generalInput{
+  width: 95%;
+  color: #3AB154;
+  border-color:#3AB154;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: transparent;
+  border: 1px solid;
+  line-height: 1.5;
+  padding: 0.5rem 1rem;
+  outline: none;
+}
+.formRow{
+  margin-bottom: 20px;
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+  vertical-align:baseline!important;
+  width: 95%!important;
+  color: #3AB154!important;
+  border-color:#3AB154 !important;
+  border-width: 1px 1px 1px 1px!important;
+  border-radius: 5px 5px 5px 5px!important;
+  background-color: transparent!important;
+  border: 1px solid!important;
+  /* line-height: 1.5!important; */
+  /* padding: 0.5rem 1rem!important; */
+  outline: none!important;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  padding:10.5px 14px!important;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+  color: #3AB154!important;
+}
+/* ================================================ OrderForm Section End ====================================================================== */
+
+/* ================================================ UpcomingOrders Section Start ====================================================================== */
+
+.upComingOrderFirstContainer{
+  direction: rtl;
+  background-color: #F6F6F6;
+  padding-bottom: 50px;
+}
+.upComingOrderWaitingListContainer{
+  background-color: white;
+  max-height: 600px;
+  /* height: 700px; */
+  max-width: 950px;
+  margin: 0 3% 3% 3%;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 7px 16px -5px rgb(0 0 0 / 9%);
+  overflow-y: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.upComingOrderWaitingListContainer::-webkit-scrollbar {
+  display: none;
+}
+.upComingOrderWaitingList{
+  height: 100%;
+  width: 100%;
+  padding: 5%;
+  /* display: flex; */
+  direction: ltr;
+}
+.upComingOrderWaitingListTable{
+  /* display: flex; */
+  width: 100%;
+  position: relative;
+}
+.upComingOrderWaitingListTable th{
+  font-weight: 300;
+  color: #3AB154;
+  font-size: 1.15em;
+  padding:0 10px;
+  margin: 0 10px;
+  border:1px solid #3AB154 ;
+  position: sticky;
+  top:0px ;
+  background-color: #F6F6F6;
+}
+.upComingOrderWaitingListTable tr{
+  width: 100%;
+  border:4px solid #3AB154 ;
+}
+.upComingOrderFirstCollum{
+  width: 6%;
+}
+.upComingOrderSecondCollum{
+  width: 10%;
+}
+.upComingOrderThirdCollum{
+  width:25%;
+}
+.upComingOrderWaitingListTable td{
+  font-size: 12px;
+  text-align: center;
+  border: 2px solid #c3cac5;
+  border-left: 0;
+  border-right: 0;
+}
+.statusCircle{
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background-color:rgb(161, 159, 159) ;
+  /* background-color:#3AB154 ; */
+  margin-left: auto;
+  margin-right: auto;
+  margin:7px auto 7px auto;
+}
+
+/* ================================================ UpcomingOrders Section end ====================================================================== */
+
+/* ================================================ OrderHistoryButton Section Start ====================================================================== */
+
+.orderHistoryFirstContainer{
+  /* background-color:#F6F6F6; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.orderHistorySecondContainer{
+  margin:60px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width:800px;
+}
+.monthOrdersButton{
+  color: #3AB154;
+  background-color: white;
+  text-decoration: none;
+  border: 2px solid;
+  display: inline-block;
+}
+.orderHistorySecondContainer div{
+  display: inline-flex;
+}
+/* ================================================ OrderHistoryButton Section End ====================================================================== */
+
+/* ================================================ OrderHistoryRoute Section Start ====================================================================== */
+
+
+.OrderHistoryRouteSecondContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+.greenLineOrderHistoryRoute{
+  margin:30px auto;
+}
+.orderHistoryRouteText{
+  color: #F6F6F6;
+}
+.orderHistoryRouteWaitingListContainer{
+  width: 90%;
+  max-width: none;
+  margin:0 5% 150px;
+}
+.headerSubTitle{
+  font-size: 3.5em;
+}
+.orderHistoryRouteTitleContainer{
+  padding: 0 3%;
+}
+.histogramFirstContainer{
+  padding-bottom: 0;
+}
+.outerChartContainer{
+  display: flex;
+  justify-content: center;
+  background-color: #F6F6F6;
+}
